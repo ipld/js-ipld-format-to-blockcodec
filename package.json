@@ -1,0 +1,42 @@
+{
+  "name": "ipld-format-to-blockcodec",
+  "version": "0.0.0",
+  "description": "Converts an IPLD Format into a BlockCodec for use with the multiformats module",
+  "main": "src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "aegir test",
+    "build": "aegir build",
+    "lint": "aegir ts -p check && aegir lint",
+    "release": "aegir release --docs",
+    "release-minor": "aegir release --type minor --docs",
+    "release-major": "aegir release --type major --docs"
+  },
+  "author": "Alex Potsides <alex@achingbrain.net>",
+  "license": "MIT/Apache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipld/js-ipld-format-to-blockcodec.git"
+  },
+  "devDependencies": {
+    "aegir": "^34.0.3",
+    "ipld-dag-cbor": "^1.0.0",
+    "ipld-dag-pb": "^0.22.2",
+    "ipld-raw": "^7.0.0",
+    "it-all": "^1.0.5",
+    "util": "^0.12.4"
+  },
+  "dependencies": {
+    "cids": "^1.1.6",
+    "interface-ipld-format": "^1.0.0",
+    "multicodec": "^3.1.0",
+    "multiformats": "^9.4.3"
+  },
+  "contributors": [
+    "achingbrain <alex@achingbrain.net>"
+  ]
+}
