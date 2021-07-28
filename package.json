@@ -1,6 +1,6 @@
 {
   "name": "ipld-format-to-blockcodec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Converts an IPLD Format into a BlockCodec for use with the multiformats module",
   "main": "src/index.js",
   "types": "dist/src/index.d.ts",
